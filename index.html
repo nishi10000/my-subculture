@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Subculture Timeline</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Subculture Archive</p>
+          <h1>My Subcal Timeline</h1>
+          <p class="lead">
+            発売日ベースのタイムライン。古い順に並び、思い出をそのまま残す。
+          </p>
+        </div>
+      </header>
+
+      <section class="timeline" id="timeline">
+        <!-- Entries injected by script.js -->
+      </section>
+    </main>
+
+    <template id="entry-template">
+      <article class="entry">
+        <div class="date">
+          <span class="date-day"></span>
+          <span class="date-month"></span>
+          <span class="date-year"></span>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <span class="tag"></span>
+            <h2 class="title"></h2>
+          </div>
+          <p class="memory"></p>
+          <div class="media"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "date": "1999-02-12",
+    "title": "Super Smash Bros.",
+    "tag": "Game",
+    "memory": "初めて触った対戦ゲーム。友達と何度も手が痛くなるまで遊んだ。",
+    "image": "images/smash.jpg"
+  },
+  {
+    "date": "2004-11-18",
+    "title": "Sonic Adventure 2 Soundtrack",
+    "tag": "Music",
+    "memory": "夜に一人で聴くとやたらテンションが上がった。",
+    "image": "images/sonic.jpg"
+  },
+  {
+    "date": "2016-07-15",
+    "title": "July Release Playlist",
+    "tag": "Playlist",
+    "memory": "暑い季節に合わせて作った思い出のプレイリスト。",
+    "image": "images/playlist.jpg"
+  }
+]

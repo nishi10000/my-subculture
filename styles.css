@@ -1,0 +1,181 @@
+:root {
+  --bg: #f6f5f1;
+  --ink: #101114;
+  --muted: #585c68;
+  --accent: #2b6cb0;
+  --line: #c8ccd6;
+  --card: #ffffff;
+  --shadow: 0 20px 50px rgba(16, 17, 20, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Zen Kaku Gothic New", "Noto Sans JP", "Hiragino Sans",
+    "Yu Gothic", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 10% 10%, rgba(43, 108, 176, 0.08), transparent 55%),
+    radial-gradient(circle at 80% 20%, rgba(16, 17, 20, 0.06), transparent 60%),
+    var(--bg);
+}
+
+.page {
+  width: min(980px, 92vw);
+  margin: 0 auto;
+  padding: 40px 0 80px;
+}
+
+.hero {
+  padding: 24px 8px 40px;
+}
+
+.hero-text {
+  display: grid;
+  gap: 12px;
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 6vw, 3.4rem);
+  letter-spacing: 0.02em;
+}
+
+.lead {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.timeline {
+  display: grid;
+  gap: 28px;
+  position: relative;
+  margin-top: 12px;
+  padding-left: 18px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), transparent 85%);
+}
+
+.entry {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(72px, 90px) 1fr;
+  align-items: start;
+}
+
+.date {
+  position: relative;
+  padding: 6px 0 0 0;
+  font-variant-numeric: tabular-nums;
+  display: grid;
+  gap: 4px;
+  color: var(--muted);
+  text-align: right;
+}
+
+.date::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(43, 108, 176, 0.18);
+}
+
+.date-day {
+  font-size: 1.6rem;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.date-month,
+.date-year {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 18px;
+  padding: 18px 20px 20px;
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 12px;
+}
+
+.card-header {
+  display: grid;
+  gap: 6px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(43, 108, 176, 0.14);
+  color: var(--accent);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.memory {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.media img {
+  width: 100%;
+  border-radius: 14px;
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .timeline {
+    padding-left: 12px;
+  }
+
+  .entry {
+    grid-template-columns: 70px 1fr;
+  }
+
+  .date {
+    text-align: left;
+  }
+
+  .date::before {
+    left: -12px;
+  }
+}
