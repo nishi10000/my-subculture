@@ -35,7 +35,53 @@ body {
 }
 
 .year-sidebar {
-  display: none;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(246, 245, 241, 0.95), transparent);
+  padding: 6px 0 8px;
+}
+
+.year-nav ul {
+  list-style: none;
+  padding: 0 2px;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+}
+
+.year-nav li {
+  scroll-snap-align: start;
+}
+
+.year-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--muted);
+  border: 1px solid transparent;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.year-nav a.active {
+  color: var(--accent);
+  border-color: rgba(43, 108, 176, 0.35);
+  background: rgba(43, 108, 176, 0.12);
+}
+
+.year-nav a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .hero {
@@ -97,6 +143,7 @@ h1 {
   color: var(--ink);
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  scroll-margin-top: 72px;
 }
 
 .date {
@@ -186,46 +233,26 @@ h1 {
   }
 
   .year-sidebar {
-    display: block;
-    position: sticky;
     top: 16px;
     align-self: start;
     max-height: calc(100vh - 32px);
     overflow: auto;
+    padding: 0;
+    background: none;
   }
 
   .year-nav ul {
-    list-style: none;
     padding: 0;
     margin: 8px 0 0 0;
     display: grid;
     gap: 10px;
+    overflow: visible;
   }
 
   .year-nav a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     min-height: 36px;
-    padding: 0 12px;
-    border-radius: 999px;
-    text-decoration: none;
-    color: var(--muted);
-    border: 1px solid transparent;
-    font-weight: 600;
-    letter-spacing: 0.08em;
     font-size: 0.8rem;
-  }
-
-  .year-nav a.active {
-    color: var(--accent);
-    border-color: rgba(43, 108, 176, 0.4);
-    background: rgba(43, 108, 176, 0.12);
-  }
-
-  .year-nav a:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
+    background: transparent;
   }
 
   .timeline {
