@@ -9,11 +9,19 @@
   },
   {
     "date": "1999-02-12",
-    "title": "Super Smash Bros.",
+    "title": "大乱闘スマッシュブラザーズDX",
     "tag": "Game",
-    "memory": "初めて触った対戦ゲーム。友達と何度も手が痛くなるまで遊んだ。",
+    "memory": "初めて触った対戦ゲーム。友達と何度も手が痛くなるまで遊んだ。中学一上手かった自信がある。",
     "image": "images/smash.jpg",
     "link": "https://www.nintendo.co.jp/n01/n64/software/nus_p_nalj/"
+  },
+  {
+    "date": "2004-10-20",
+    "title": "ソルファ",
+    "tag": "Music",
+    "memory": "アジカンのソルファで初めてアーティスト推しという概念が出てきた。中学生の頃に最も聴いたアルバム。",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Asian_Kung-fu_Generation_Sol-fa.jpg",
+    "link": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%AB%E3%83%95%E3%82%A1"
   },
   {
     "date": "2008-01-31",
