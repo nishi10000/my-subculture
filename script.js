@@ -24,7 +24,17 @@ const buildEntry = (entry) => {
   node.querySelector(".title").textContent = entry.title;
   node.querySelector(".memory").textContent = entry.memory;
 
+  const card = node.querySelector(".card");
   const media = node.querySelector(".media");
+  if (entry.link) {
+    const link = document.createElement("a");
+    link.className = "entry-link";
+    link.href = entry.link;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = "公式サイト";
+    card.insertBefore(link, media);
+  }
   if (entry.image) {
     const img = document.createElement("img");
     img.src = entry.image;

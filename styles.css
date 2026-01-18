@@ -220,6 +220,24 @@ h1 {
   color: var(--muted);
 }
 
+.entry-link {
+  width: fit-content;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.entry-link:hover {
+  text-decoration: underline;
+}
+
+.entry-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
 .media img {
   width: 100%;
   border-radius: 14px;

@@ -1,10 +1,19 @@
 [
   {
+    "date": "1996-03-21",
+    "title": "星のカービィ スーパーデラックス",
+    "tag": "Game",
+    "memory": "友達の家で初めて協力プレイを楽しんだ。いつも2Pだったがいろんな見た目になって楽しかった！その友達とは私の転園がきっかけに連絡が途絶えたけど、ゲームを教えてくれてありがとうと伝えたい。",
+    "image": "https://www.kirby.jp/images/0427/history/history-img-gamepic-07.png",
+    "link": "https://www.kirby.jp/history/"
+  },
+  {
     "date": "1999-02-12",
     "title": "Super Smash Bros.",
     "tag": "Game",
     "memory": "初めて触った対戦ゲーム。友達と何度も手が痛くなるまで遊んだ。",
-    "image": "images/smash.jpg"
+    "image": "images/smash.jpg",
+    "link": "https://www.nintendo.co.jp/n01/n64/software/nus_p_nalj/"
   },
   {
     "date": "2004-11-18",
@@ -17,7 +26,8 @@
     "date": "2008-01-31",
     "title": "大乱闘スマッシュブラザーズX",
     "tag": "Game",
-    "memory": "Wii版でボコボコにされて、しばらくスマブラ嫌いになった。"
+    "memory": "Wii版でボコボコにされて、しばらくスマブラ嫌いになった。",
+    "link": "https://www.smashbros.com/wii/jp/"
   },
   {
     "date": "2016-07-15",
