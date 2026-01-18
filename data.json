@@ -24,12 +24,20 @@
     "link": "https://en.wikipedia.org/wiki/Super_Bomberman_4"
   },
   {
-    "date": "1999-02-12",
-    "title": "大乱闘スマッシュブラザーズDX",
+    "date": "1999-01-21",
+    "title": "大乱闘スマッシュブラザーズ",
     "tag": "Game",
-    "memory": "初めて触った対戦ゲーム。友達と何度も手が痛くなるまで遊んだ。中学一上手かった自信がある。",
+    "memory": "兄弟と喧嘩するほど遊んだ。",
     "image": "images/smash.jpg",
     "link": "https://www.nintendo.co.jp/n01/n64/software/nus_p_nalj/"
+  },
+  {
+    "date": "2001-11-21",
+    "title": "大乱闘スマッシュブラザーズDX",
+    "tag": "Game",
+    "memory": "学校で一番上手かった。",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Super_Smash_Bros_Melee_box_art.png/250px-Super_Smash_Bros_Melee_box_art.png",
+    "link": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B9%B1%E9%97%98%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BADX"
   },
   {
     "date": "2004-10-20",
