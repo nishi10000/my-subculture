@@ -10,9 +10,10 @@
 ## Spec (confirmed)
 - Date granularity: YYYY-MM-DD
 - Order: oldest to newest
-- Entry fields: date / tag / title / memory / image (optional)
+- Entry fields: date / tag / title / memory / image (optional) / link (optional)
 - Layout: vertical timeline, date on left, card on right
 - Visibility: public
+- Images: use `image` when available; if omitted and `link` is an Amazon URL, the app auto-renders the Amazon cover image.
 
 ## Current Implementation
 - Repo: https://github.com/nishi10000/my-subculture
