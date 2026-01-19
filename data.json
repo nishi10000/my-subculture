@@ -4,7 +4,7 @@
     "title": "ドラゴンボールZ 強襲!サイヤ人",
     "tag": "Game",
     "memory": "最古のゲームの記憶。ファミコンを誰かからもらってやってた記憶。ドラゴンボールもあんまり知らない中やってたような。",
-    "image": "https://static.wikia.nocookie.net/dragonball/images/b/b0/Dragon_Ball_Z_-_Ky%C3%B4sh%C5%AB%21_Saiyan_%28J%29.png/revision/latest?cb=20100717011518",
+    "image": "images/dragonball-z-kyoshu-saiyan.png",
     "link": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ_%E5%BC%B7%E8%A5%B2!%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA"
   },
   {
@@ -12,7 +12,7 @@
     "title": "ロックマン サッカー",
     "tag": "Game",
     "memory": "サッカーというゲームに初めて遊んだ。おかげで、サイドからセンタリングあげればいいと思っちゃってた。",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/MMSoccerBox.jpg/250px-MMSoccerBox.jpg",
+    "image": "images/megaman-soccer.jpg",
     "link": "https://en.wikipedia.org/wiki/Mega_Man_Soccer"
   },
   {
@@ -20,7 +20,7 @@
     "title": "スーパーボンバーマン3",
     "tag": "Game",
     "memory": "友達んちでむちゃ遊んだ。",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/SNES_Super_Bomberman_3_cover_art.jpg/250px-SNES_Super_Bomberman_3_cover_art.jpg",
+    "image": "images/super-bomberman-3.jpg",
     "link": "https://en.wikipedia.org/wiki/Super_Bomberman_3"
   },
   {
@@ -28,7 +28,7 @@
     "title": "星のカービィ スーパーデラックス",
     "tag": "Game",
     "memory": "友達の家で初めて協力プレイを楽しんだ。いつも2Pだったがいろんな見た目になって楽しかった！その友達とは私の転園がきっかけに連絡が途絶えたけど、ゲームを教えてくれてありがとうと伝えたい。",
-    "image": "https://www.kirby.jp/images/0427/history/history-img-gamepic-07.png",
+    "image": "images/kirby-super-deluxe.png",
     "link": "https://www.kirby.jp/history/"
   },
   {
@@ -36,7 +36,7 @@
     "title": "スーパーボンバーマン4",
     "tag": "Game",
     "memory": "敵キャラが使えるギミックが個性があって楽しかった。仲良く対戦できてた。あの頃。",
-    "image": "https://upload.wikimedia.org/wikipedia/en/9/97/SFC_Super_Bomberman_4_cover_art.jpg",
+    "image": "images/super-bomberman-4.jpg",
     "link": "https://en.wikipedia.org/wiki/Super_Bomberman_4"
   },
   {
@@ -44,7 +44,7 @@
     "title": "ボンバーマン64",
     "tag": "Game",
     "memory": "借りたボンバーマン64で年上の先輩のデータを全部消した。クリアって消すって初めて知って、何も言わずに返した苦い記憶。N64の3Dボンバーマンで、日本では1997年9月26日発売。",
-    "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Bomberman_64_box_art.jpg",
+    "image": "images/bomberman-64.png",
     "link": "https://ja.wikipedia.org/wiki/%E3%83%9C%E3%83%B3%E3%83%90%E3%83%BC%E3%83%9E%E3%83%B364"
   },
   {
@@ -67,7 +67,7 @@
     "title": "大乱闘スマッシュブラザーズDX",
     "tag": "Game",
     "memory": "学校で一番上手かった。",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Super_Smash_Bros_Melee_box_art.png/250px-Super_Smash_Bros_Melee_box_art.png",
+    "image": "images/smash-bros-melee.png",
     "link": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E4%B9%B1%E9%97%98%E3%82%B9%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BADX"
   },
   {
@@ -75,8 +75,14 @@
     "title": "ソルファ",
     "tag": "Music",
     "memory": "アジカンのソルファで初めてアーティスト推しという概念が出てきた。中学生の頃に最も聴いたアルバム。",
-    "image": "https://upload.wikimedia.org/wikipedia/en/0/05/Asian_Kung-fu_Generation_Sol-fa.jpg",
+    "image": "images/sol-fa.jpg",
     "link": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%AB%E3%83%95%E3%82%A1"
+  },
+  {
+    "date": "2006-11-29",
+    "title": "夜は短し歩けよ乙女",
+    "tag": "Book",
+    "memory": "ソルファのジャケットがカッコよく中村佑介というイラストレーター繋がりで読み始めたが世界観が素晴らしく乙女のファンになってしまった。"
   },
   {
     "date": "2008-01-31",
