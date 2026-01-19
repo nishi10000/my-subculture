@@ -32,3 +32,4 @@
 2) Add images/ and update image paths
 3) Adjust tags, spacing, typography
 4) Optional year separators or filters
+5) Fix mobile width overflow (still broken on small screens)
