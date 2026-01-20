@@ -297,14 +297,28 @@ h1 {
   }
 
   .entry {
-    grid-template-columns: minmax(64px, 72px) 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .date {
     text-align: left;
+    padding-left: 8px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
   .date::before {
-    left: -12px;
+    left: -8px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 1.15rem;
   }
 }

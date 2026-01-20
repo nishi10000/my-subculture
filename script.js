@@ -2,6 +2,16 @@ const timeline = document.querySelector("#timeline");
 const template = document.querySelector("#entry-template");
 const yearSidebar = document.querySelector("#year-sidebar");
 
+const getAmazonImageUrl = (url) => {
+  if (!url) return null;
+  const match = url.match(
+    /(?:amazon\.[^/]+\/(?:dp|gp\/product)\/|amzn\.[^/]+\/)([A-Z0-9]{10})/i
+  );
+  if (!match) return null;
+  const asin = match[1].toUpperCase();
+  return `https://images-na.ssl-images-amazon.com/images/P/${asin}.01.MZZZZZZZ.jpg`;
+};
+
 const formatDateParts = (dateString) => {
   const date = new Date(`${dateString}T00:00:00`);
   const day = String(date.getDate()).padStart(2, "0");
@@ -35,9 +45,10 @@ const buildEntry = (entry) => {
     link.textContent = "公式サイト";
     card.insertBefore(link, media);
   }
-  if (entry.image) {
+  const imageSource = entry.image || getAmazonImageUrl(entry.link);
+  if (imageSource) {
     const img = document.createElement("img");
-    img.src = entry.image;
+    img.src = imageSource;
     img.alt = entry.title;
     img.loading = "lazy";
     media.appendChild(img);
