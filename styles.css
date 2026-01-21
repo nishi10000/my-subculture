@@ -318,6 +318,11 @@ h1 {
     padding: 16px;
   }
 
+  .media img {
+    max-height: 240px;
+    object-fit: cover;
+  }
+
   .title {
     font-size: 1.15rem;
   }
