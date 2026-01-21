@@ -41,6 +41,7 @@ body {
   z-index: 2;
   background: linear-gradient(180deg, rgba(246, 245, 241, 0.95), transparent);
   padding: 6px 0 8px;
+  min-width: 0;
 }
 
 .year-nav ul {
@@ -51,6 +52,8 @@ body {
   gap: 10px;
   overflow-x: auto;
   scroll-snap-type: x proximity;
+  width: 100%;
+  max-width: 100%;
 }
 
 .year-nav li {
