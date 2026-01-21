@@ -69,9 +69,21 @@ const buildYearAnchor = (year) => {
 
 const buildYearNav = (years) => {
   if (!yearSidebar) return;
-  const nav = document.createElement("nav");
+  const nav = document.createElement("div");
   nav.className = "year-nav";
-  nav.setAttribute("aria-label", "年で移動");
+
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "year-toggle";
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.setAttribute("aria-controls", "year-menu");
+  toggle.textContent = "年を選択";
+
+  const panel = document.createElement("div");
+  panel.className = "year-panel";
+  panel.id = "year-menu";
+  panel.setAttribute("role", "menu");
+  panel.setAttribute("aria-label", "年で移動");
 
   const list = document.createElement("ul");
   years.forEach((year) => {
@@ -84,9 +96,33 @@ const buildYearNav = (years) => {
     list.appendChild(item);
   });
 
-  nav.appendChild(list);
+  panel.appendChild(list);
+  nav.appendChild(panel);
+  nav.appendChild(toggle);
   yearSidebar.innerHTML = "";
   yearSidebar.appendChild(nav);
+
+  const setOpen = (isOpen) => {
+    nav.classList.toggle("is-open", isOpen);
+    toggle.setAttribute("aria-expanded", String(isOpen));
+  };
+
+  toggle.addEventListener("click", () => {
+    const isOpen = nav.classList.contains("is-open");
+    setOpen(!isOpen);
+  });
+
+  document.addEventListener("click", (event) => {
+    if (yearSidebar.contains(event.target)) return;
+    setOpen(false);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      setOpen(false);
+      toggle.focus();
+    }
+  });
 };
 
 const setupYearScrollSpy = (anchors) => {
@@ -120,6 +156,14 @@ const setupYearScrollSpy = (anchors) => {
     }
   };
 
+  const closeYearNav = () => {
+    const nav = yearSidebar.querySelector(".year-nav");
+    const toggle = yearSidebar.querySelector(".year-toggle");
+    if (!nav || !toggle) return;
+    nav.classList.remove("is-open");
+    toggle.setAttribute("aria-expanded", "false");
+  };
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -149,6 +193,7 @@ const setupYearScrollSpy = (anchors) => {
     target.scrollIntoView({ behavior: "smooth", block: "start" });
     target.focus({ preventScroll: true });
     setActiveYear(link.dataset.year);
+    closeYearNav();
   });
 
   yearSidebar.addEventListener("keydown", (event) => {
