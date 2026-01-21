@@ -342,7 +342,7 @@ h1 {
   }
 
   .media img {
-    max-height: 200px;
+    max-height: none;
   }
 
   .title {
