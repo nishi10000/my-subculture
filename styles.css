@@ -319,8 +319,9 @@ h1 {
   }
 
   .media img {
-    max-height: 240px;
-    object-fit: cover;
+    max-height: 200px;
+    height: auto;
+    object-fit: contain;
   }
 
   .title {
