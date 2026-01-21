@@ -50,10 +50,9 @@ body {
   margin: 0;
   display: flex;
   gap: 10px;
-  overflow-x: auto;
   scroll-snap-type: x proximity;
-  width: 100%;
-  max-width: 100%;
+  width: max-content;
+  min-width: 100%;
 }
 
 .year-nav li {
@@ -75,6 +74,11 @@ body {
   font-size: 0.78rem;
   white-space: nowrap;
   background: rgba(255, 255, 255, 0.85);
+}
+
+.year-nav {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .year-nav a.active {
