@@ -310,6 +310,7 @@ h1 {
   .entry {
     grid-template-columns: 1fr;
     gap: 10px;
+    width: 100%;
   }
 
   .date {
@@ -327,6 +328,17 @@ h1 {
 
   .card {
     padding: 16px;
+    width: 100%;
+  }
+
+  .year-nav {
+    overflow-x: visible;
+  }
+
+  .year-nav ul {
+    width: 100%;
+    min-width: 0;
+    flex-wrap: wrap;
   }
 
   .media img {
