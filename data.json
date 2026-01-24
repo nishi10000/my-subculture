@@ -98,14 +98,16 @@
     "title": "実況パワフルプロ野球7",
     "tag": "Game",
     "memory": "このゲームによりソフトボールをやり、自分には向いてないスポーツだと悟り、スポーツ全般が向いてないと悟り、キャッチボールができるようになった。ゲーム上で初めて彼女を作った^ ^友達んちで狂ったようにやってたなぁ。センス◯が出るまでリセットしたり、オールAを目指すのは大変だった。",
-    "link": "https://ja.wikipedia.org/wiki/%E5%AE%9F%E6%B3%81%E3%83%91%E3%83%AF%E3%83%95%E3%83%AB%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83"
+    "link": "https://ja.wikipedia.org/wiki/%E5%AE%9F%E6%B3%81%E3%83%91%E3%83%AF%E3%83%95%E3%83%AB%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83",
+    "image": "images/pawapuro-baseball-glove.jpg"
   },
   {
     "date": "2001-03-16",
     "title": "メメント",
     "tag": "Movie",
     "memory": "短時間しか、記憶がない男から生み出される事件が、巻き戻しされながら物語が戻っていく。という構成にびっくり。落ちは分かってるのに先が気になる。最近私もスマホのせいか、メメント状態になる時がある。ながらスマホをやめていきたい。",
-    "link": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%A1%E3%83%B3%E3%83%88"
+    "link": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%A1%E3%83%B3%E3%83%88",
+    "image": "images/memento-polaroid-camera.jpg"
   },
   {
     "date": "2001-09-14",
@@ -215,7 +217,8 @@
     "title": "インターステラー",
     "tag": "Movie",
     "memory": "壮大なSFと映像化良くしたなという感動と、物理法則を超えるロマンスの話に衝撃を受けた。スクリーンで見たかった名作。",
-    "link": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%86%E3%83%A9%E3%83%BC"
+    "link": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%86%E3%83%A9%E3%83%BC",
+    "image": "images/interstellar-crab-nebula.jpg"
   },
   {
     "date": "2017-01-01",
@@ -253,6 +256,7 @@
     "date": "2024-04-10",
     "title": "初めての一人旅",
     "tag": "Trip",
-    "memory": "行き当たりばったりで電車と徒歩だけの旅。予定を詰めないと、街の音や匂いがちゃんと入ってくるって知った。"
+    "memory": "行き当たりばったりで電車と徒歩だけの旅。予定を詰めないと、街の音や匂いがちゃんと入ってくるって知った。",
+    "image": "images/trip-asakusabashi-station.jpg"
   }
 ]
