@@ -296,6 +296,37 @@ h1 {
   display: block;
 }
 
+.credits {
+  margin-top: 48px;
+  padding: 24px 8px 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.credits h2 {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.credits ul {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+}
+
+.credits a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .timeline {
     margin-top: 0;
