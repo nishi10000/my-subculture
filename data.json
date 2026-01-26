@@ -86,6 +86,14 @@
     "image": "images/mewtwo-strikes-back.jpg"
   },
   {
+    "date": "1998-07-25",
+    "title": "Windows 98",
+    "tag": "Tech",
+    "memory": "ビープ音でなるインターネット、田舎では早い方だったんじゃないかな？でも、電話回線でインターネット触らせてくれなかったなぁ。せいぜい描きにくいペイントで遊ぶぐらいだった。でも、スクリーンセイバーにワクワクしたりしたんだよなぁ。",
+    "image": "images/windows-98.svg",
+    "link": "https://ja.wikipedia.org/wiki/Microsoft_Windows_98"
+  },
+  {
     "date": "1999-01-21",
     "title": "大乱闘スマッシュブラザーズ",
     "tag": "Game",
