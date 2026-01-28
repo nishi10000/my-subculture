@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-label="paper airplane">
+  <rect width="800" height="400" fill="#f6f7fb"/>
+  <path d="M60 210 L740 60 L520 220 L740 340 L60 210 Z" fill="#ffffff" stroke="#222" stroke-width="10"/>
+  <path d="M520 220 L350 190" fill="none" stroke="#222" stroke-width="10" stroke-linecap="round"/>
+  <path d="M520 220 L350 250" fill="none" stroke="#222" stroke-width="10" stroke-linecap="round"/>
+  <path d="M350 190 L60 210" fill="none" stroke="#222" stroke-width="10" stroke-linecap="round"/>
+  <path d="M350 250 L60 210" fill="none" stroke="#222" stroke-width="10" stroke-linecap="round"/>
+</svg>

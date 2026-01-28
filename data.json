@@ -39,6 +39,14 @@
     "link": "https://en.wikipedia.org/wiki/Mega_Man_Soccer"
   },
   {
+    "date": "1995-01-01",
+    "title": "紙飛行機",
+    "tag": "Hobby",
+    "memory": "空前の折り紙ブームから、紙飛行機ブームへと派生して日々オリジナル飛行機の開発に注力したのだった。転園後支えてくれた１つ。",
+    "image": "images/paper-airplane.svg",
+    "link": "https://ja.wikipedia.org/wiki/%E7%B4%99%E9%A3%9B%E8%A1%8C%E6%A9%9F"
+  },
+  {
     "date": "1995-04-28",
     "title": "スーパーボンバーマン3",
     "tag": "Game",
