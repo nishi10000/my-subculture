@@ -28,7 +28,8 @@
     "title": "パーフェクト・ワールド",
     "tag": "Movie",
     "memory": "人生で2番目に泣いたかもしれない映画、一位はミューツーの逆襲なので、実際は一位かもしれない。みんなそれぞれ問題があって必死にやっても上手くいかないこともある。歳の差を超えた友情に涙した。美しい世界に乾杯",
-    "link": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%BB%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89"
+    "link": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%BB%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89",
+    "image": "images/perfect-world.svg"
   },
   {
     "date": "1994-03-25",
@@ -58,7 +59,9 @@
     "date": "1996-01-01",
     "title": "竹とんぼ",
     "memory": "隣に住むじいちゃんが作ってくれた竹で作ったシンプルなものが勢いよく飛んでいくのは低学年小学生には驚きだった。全然使わなかったが、ブランコや卓球のラケットを手作りしてくれた。ものづくりを教えてくれたおじいちゃん、ありがとう。",
-    "image": "images/taketombo.jpg"
+    "image": "images/taketombo.jpg",
+    "tag": "Hobby",
+    "link": "https://ja.wikipedia.org/wiki/%E7%AB%B9%E3%81%A8%E3%82%93%E3%81%BC"
   },
   {
     "date": "1996-02-19",
@@ -121,14 +124,16 @@
     "title": "デモンアドベンチャー",
     "tag": "Anime",
     "memory": "アグモンと太一を中心とした成長物語に当時はハマった記憶。あの時は、ポケモンと同じくずっと続くコンテンツだと思ったけれど、差がついたねぇ。あと、ガチャガチャでデジモンもどきを手に入れて遊んでいた。本当のデジモンは確か持ってなかった。",
-    "link": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC"
+    "link": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC",
+    "image": "images/digimon-adventure.svg"
   },
   {
     "date": "1999-12-11",
     "title": "ファイト・クラブ",
     "tag": "Movie",
     "memory": "友達が大好きな映画だった。バイオレンス、価値観のぶっ壊し、伏線など、さまざまな要素が絡んでブラピがかっこいい。スマホのケースを石鹸にするため3dプリンターにチャレンジした。",
-    "link": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96"
+    "link": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
+    "image": "images/fight-club.svg"
   },
   {
     "date": "2000-07-06",
@@ -175,7 +180,8 @@
     "title": "アイスの爽",
     "tag": "Food",
     "memory": "小学生の頃、異常にハマって、友達にも奢ってもらってた。小遣い500円じゃやってけねぇよほんと。シャリっと溶けてく、外で食べるの美味しかったなぁ。",
-    "image": "images/ice-cream-dessert.jpg"
+    "image": "images/ice-cream-dessert.jpg",
+    "link": "https://www.lotte.co.jp/products/brand/soh/"
   },
   {
     "date": "2002-09-12",
