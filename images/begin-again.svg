@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="はじまりのうた (Begin Again) placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#3b2f1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+
+  <!-- simple city + waveform (original, non-derivative) -->
+  <path d="M90 510h1020" stroke="#ffffff14" stroke-width="10" stroke-linecap="round"/>
+  <path d="M130 510v-120h70v120M240 510v-180h90v180M360 510v-140h80v140M480 510v-220h110v220M620 510v-160h90v160M740 510v-200h120v200M890 510v-150h90v150M1000 510v-190h80v190" fill="none" stroke="#ffffff1b" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160 240c60 40 100-40 160 0s100-40 160 0 100-40 160 0 100-40 160 0" fill="none" stroke="#ffffff22" stroke-width="16" stroke-linecap="round"/>
+
+  <text x="70" y="285" font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,'Noto Sans JP',sans-serif" font-size="76" fill="#ffffff" font-weight="900">はじまりのうた</text>
+  <text x="70" y="360" font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,'Noto Sans JP',sans-serif" font-size="30" fill="#ffffffb3">Begin Again • Movie • placeholder image</text>
+  <text x="70" y="430" font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,'Noto Sans JP',sans-serif" font-size="22" fill="#ffffff80">（著作権に配慮し、写真や公式素材ではなく自作の仮画像を使用）</text>
+</svg>
