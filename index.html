@@ -3,31 +3,46 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Subculture Timeline</title>
+    <title>My Subcal Timeline — 好きなものが、今の自分をつくっている。</title>
+    <meta name="description" content="ゲーム、映画、音楽、本。1990年から続く、好きなものと思い出の個人的なサブカル年表。" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="page">
+      <a class="skip-link" href="#archive">年表へスキップ</a>
+      <div class="masthead"><a href="#" class="brand">MY SUBCAL<span>PERSONAL CULTURE ARCHIVE</span></a><span class="edition">VOL. 01 / SINCE 1990</span></div>
       <header class="hero">
         <div class="hero-text">
-          <p class="eyebrow">Subculture Archive</p>
-          <h1>My Subcal Timeline</h1>
-          <p class="lead">
-            発売日ベースのタイムライン。古い順に並び、思い出をそのまま残す。
-          </p>
+          <p class="eyebrow">THE THINGS THAT MADE ME</p>
+          <h1>好きなものが、<br>今の自分を<br><em>つくっている。</em></h1>
+          <p class="lead">夢中になったゲーム。何度も聴いた音楽。<br>忘れられない映画と、あの頃のこと。<br>好きの記憶をたどる、個人的なサブカル年表。</p>
+          <a class="hero-link" href="#archive">思い出をめくる <span>↓</span></a>
+        </div>
+        <div class="cover-art" aria-label="ゲーム、映画、音楽の思い出のコラージュ">
+          <div class="cover-orbit" aria-hidden="true"></div>
+          <figure class="cover-photo photo-one"><img src="images/fujirock-2017.jpg" alt="フジロック2017の風景" /><figcaption>あの夏の音は、まだ鳴っている。</figcaption></figure>
+          <figure class="cover-photo photo-two"><img src="images/kirby-super-deluxe.png" alt="星のカービィ スーパーデラックス" /><figcaption>PRESS START / 1996</figcaption></figure>
+          <figure class="cover-photo photo-three"><img src="images/umi-ga-kikoeru-title.jpg" alt="海が聞こえる" /><figcaption>A SCENE TO REMEMBER</figcaption></figure>
+          <span class="cover-stamp" aria-hidden="true">好きは<br>色あせない。</span>
+          <span class="cover-caption">GAMES / CINEMA / MUSIC / LIFE</span>
         </div>
       </header>
-
+      <div class="archive-intro" id="archive"><div><p class="eyebrow">A WALK THROUGH MY MEMORIES</p><h2>好きの記録。<span id="entry-count"></span></h2></div><p id="archive-range">1990 — 2023</p></div>
+      <section class="archive-tools" aria-label="思い出を探す">
+        <label class="search-box"><span>検索</span><input id="search" type="search" placeholder="作品名や思い出を探す" /></label>
+        <div id="filters" class="filters" aria-label="ジャンルで絞り込み"></div>
+      </section>
+      <p class="result-count" id="result-count" role="status" aria-live="polite"></p>
       <div class="content-grid">
-        <aside class="year-sidebar" id="year-sidebar">
+        <nav class="year-sidebar" id="year-sidebar" aria-label="年代で移動">
           <!-- Year nav injected by script.js -->
-        </aside>
-        <section class="timeline" id="timeline">
+        </nav>
+        <section class="timeline" id="timeline" aria-label="思い出の年表">
           <!-- Entries injected by script.js -->
         </section>
       </div>
 
-      <footer class="credits">
+      <footer class="credits"><p class="footer-note">これまでの好き。これからの好き。</p>
         <h2>Image credits</h2>
         <ul>
           <li>
@@ -61,11 +76,11 @@
           <span class="date-year"></span>
         </div>
         <div class="card">
-          <div class="card-header">
+          <div class="card-copy"><div class="card-header">
             <span class="tag"></span>
             <h2 class="title"></h2>
           </div>
-          <p class="memory"></p>
+          <p class="memory"></p></div>
           <div class="media"></div>
         </div>
       </article>
