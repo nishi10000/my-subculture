@@ -29,7 +29,9 @@
     "tag": "Movie",
     "memory": "人生で2番目に泣いたかもしれない映画、一位はミューツーの逆襲なので、実際は一位かもしれない。みんなそれぞれ問題があって必死にやっても上手くいかないこともある。歳の差を超えた友情に涙した。美しい世界に乾杯",
     "link": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%BB%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89",
-    "image": "images/perfect-world.svg"
+    "image": "images/memories/perfect-world.webp",
+    "imageKind": "illustration",
+    "imageAlt": "広い空の下、古い車の隣を歩く少年と大人。夕暮れの友情を描いた挿絵。"
   },
   {
     "date": "1994-03-25",
@@ -44,8 +46,10 @@
     "title": "紙飛行機",
     "tag": "Hobby",
     "memory": "空前の折り紙ブームから、紙飛行機ブームへと派生して日々オリジナル飛行機の開発に注力したのだった。転園後支えてくれた１つ。",
-    "image": "images/paper-airplane.svg",
-    "link": "https://ja.wikipedia.org/wiki/%E7%B4%99%E9%A3%9B%E8%A1%8C%E6%A9%9F"
+    "image": "images/memories/paper-airplane.webp",
+    "link": "https://ja.wikipedia.org/wiki/%E7%B4%99%E9%A3%9B%E8%A1%8C%E6%A9%9F",
+    "imageKind": "illustration",
+    "imageAlt": "午後の光が差す工作机で、紙飛行機を折る子どもの挿絵。"
   },
   {
     "date": "1995-04-28",
@@ -133,7 +137,9 @@
     "tag": "Anime",
     "memory": "アグモンと太一を中心とした成長物語に当時はハマった記憶。あの時は、ポケモンと同じくずっと続くコンテンツだと思ったけれど、差がついたねぇ。あと、ガチャガチャでデジモンもどきを手に入れて遊んでいた。本当のデジモンは確か持ってなかった。",
     "link": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC",
-    "image": "images/digimon-adventure.svg"
+    "image": "images/memories/digimon-adventure.webp",
+    "imageKind": "illustration",
+    "imageAlt": "広大なデジタル世界を見渡す太一とアグモンの冒険を描いた挿絵。"
   },
   {
     "date": "1999-12-11",
@@ -141,7 +147,9 @@
     "tag": "Movie",
     "memory": "友達が大好きな映画だった。バイオレンス、価値観のぶっ壊し、伏線など、さまざまな要素が絡んでブラピがかっこいい。スマホのケースを石鹸にするため3dプリンターにチャレンジした。",
     "link": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%96",
-    "image": "images/fight-club.svg"
+    "image": "images/memories/fight-club.webp",
+    "imageKind": "illustration",
+    "imageAlt": "暗い洗面台に置かれたピンクの石鹸を描いた挿絵。"
   },
   {
     "date": "2000-07-06",
@@ -188,8 +196,10 @@
     "title": "スパイキッズ",
     "tag": "Movie",
     "memory": "子どもの頃に大好きで何度も見た。大人を懲らしめる（気がする）痛快さと、ガジェットのかっこよさが刺さってた。いまの自分でもまだ楽しめるのか、ちょっと見返して確かめたくなる作品。",
-    "image": "images/spy-kids.svg",
-    "link": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%91%E3%82%A4%E3%82%AD%E3%83%83%E3%82%BA"
+    "image": "images/memories/spy-kids.webp",
+    "link": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%91%E3%82%A4%E3%82%AD%E3%83%83%E3%82%BA",
+    "imageKind": "illustration",
+    "imageAlt": "秘密の工房で発明品を眺める二人の子どもを描いた挿絵。"
   },
   {
     "date": "2002-07-01",
@@ -204,8 +214,10 @@
     "title": "ピンポン",
     "tag": "Movie",
     "memory": "映画・漫画・アニメ、どれも無茶クオリティが高い気がする作品。漫画で読んでもスピードがあって、最後の試合には静寂すら感じる。ペコは最初は好きじゃなかったけど、「一位だった自分が落ちた経験」って誰にでもあるだろうし、今なら好きになれる。",
-    "image": "images/ping-pong.svg",
-    "link": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%83%B3%E3%83%9D%E3%83%B3_(%E6%98%A0%E7%94%BB)"
+    "image": "images/memories/ping-pong.webp",
+    "link": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%83%B3%E3%83%9D%E3%83%B3_(%E6%98%A0%E7%94%BB)",
+    "imageKind": "illustration",
+    "imageAlt": "夕日が差す体育館で、卓球台のネットを越えるボールを描いた挿絵。"
   },
   {
     "date": "2002-09-12",
@@ -228,8 +240,10 @@
     "title": "フラッシュ保存庫",
     "tag": "Web",
     "memory": "フラッシュ保存庫について、かたろうか。田舎でも学校のパソコンで遊べたり、動画だったりがあって、面白かったね。なんか、画面が変わって怖いのになるやつだけは、許せねぇ！『ウォーリーを探さないで』。あと、ペリーとかいまだにちょっと話出るよね。黒船とかの話になると、コテンラジオでも、話出てて笑った。ゲームもそこそこあって、砲弾が重力で軌道を予測しながら遊ぶ、横から見たやつだった。今やっても面白いのでは。",
-    "image": "images/flash-archive.svg",
-    "link": "https://ja.wikipedia.org/wiki/Adobe_Flash"
+    "image": "images/memories/flash-archive.webp",
+    "link": "https://ja.wikipedia.org/wiki/Adobe_Flash",
+    "imageKind": "illustration",
+    "imageAlt": "学校のパソコン室で、ブラウザゲームに夢中になる子どもの挿絵。"
   },
   {
     "date": "2003-08-29",
@@ -244,8 +258,10 @@
     "title": "ラブ・アクチュアリー",
     "tag": "Movie",
     "memory": "いろんな出会いと別れが連なって、最後はハッピーにさせてくれる。『ラブ・アゲイン』とはまた違う魅力で、どちらかというとこっちの方がロマンチック。大人になったらこんな出会いがあるんだと思った、あの頃の自分に効いた一本。",
-    "image": "images/love-actually.svg",
-    "link": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%96%E3%83%BB%E3%82%A2%E3%82%AF%E3%83%81%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%BC"
+    "image": "images/memories/love-actually.webp",
+    "link": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%96%E3%83%BB%E3%82%A2%E3%82%AF%E3%83%81%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%BC",
+    "imageKind": "illustration",
+    "imageAlt": "クリスマスのロンドンで、赤い傘の下に集う二人を描いた挿絵。"
   },
   {
     "date": "2004-03-18",
@@ -260,8 +276,10 @@
     "title": "電車男",
     "tag": "Book",
     "memory": "電車男のドラマも小説も見たなぁ。こんなにはオタクでなかったけど、希望があるなと思ったもんだ。でも、実際は自分を変える方が効果あったんだよね。ヒロインの人も美人で美しかったなぁ。",
-    "image": "images/densha-otoko.svg",
-    "link": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E8%BB%8A%E7%94%B7"
+    "image": "images/memories/densha-otoko.webp",
+    "link": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E8%BB%8A%E7%94%B7",
+    "imageKind": "illustration",
+    "imageAlt": "東京の電車で向かい合う、眼鏡の青年と女性を描いた挿絵。"
   },
   {
     "date": "2004-10-20",
@@ -284,16 +302,20 @@
     "title": "痴漢男",
     "tag": "Manga",
     "memory": "合わせて、痴漢男も漫画無茶苦茶ハマってたなぁ。パロディも多くて、面白かったなぁ。",
-    "image": "images/chikan-otoko.svg",
-    "link": "https://ja.wikipedia.org/wiki/%E7%97%B4%E6%BC%A2%E7%94%B7"
+    "image": "images/memories/chikan-otoko.webp",
+    "link": "https://ja.wikipedia.org/wiki/%E7%97%B4%E6%BC%A2%E7%94%B7",
+    "imageKind": "illustration",
+    "imageAlt": "夜の部屋で、パソコンの掲示板を読む青年を描いた挿絵。"
   },
   {
     "date": "2005-07-07",
     "title": "電車男（テレビドラマ）",
     "tag": "TV",
     "memory": "電車男のドラマも小説も見たなぁ。こんなにはオタクでなかったけど、希望があるなと思ったもんだ。でも、実際は自分を変える方が効果あったんだよね。ヒロインの人も美人で美しかったなぁ。",
-    "image": "images/densha-otoko.svg",
-    "link": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E8%BB%8A%E7%94%B7_(%E3%83%86%E3%83%AC%E3%83%93%E3%83%89%E3%83%A9%E3%83%9E)"
+    "image": "images/memories/densha-otoko.webp",
+    "link": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E8%BB%8A%E7%94%B7_(%E3%83%86%E3%83%AC%E3%83%93%E3%83%89%E3%83%A9%E3%83%9E)",
+    "imageKind": "illustration",
+    "imageAlt": "東京の電車で向かい合う、眼鏡の青年と女性を描いた挿絵。"
   },
   {
     "date": "2006-10-01",
@@ -340,8 +362,10 @@
     "title": "ラブ・アゲイン",
     "tag": "Movie",
     "memory": "いい夫婦でいることは奇跡で、同時に努力でもある。最高の脚本と予想外の展開、みんなが可愛くて愛すべきキャラクター。あの時の私は「何を努力すべきか」が分かっていなかったけれど、この作品が大きなヒントをくれた。",
-    "image": "images/crazy-stupid-love.svg",
-    "link": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%80%81%E3%82%B9%E3%83%81%E3%83%A5%E3%83%BC%E3%83%94%E3%83%83%E3%83%89%E3%83%BB%E3%83%A9%E3%83%96"
+    "image": "images/memories/crazy-stupid-love.webp",
+    "link": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%80%81%E3%82%B9%E3%83%81%E3%83%A5%E3%83%BC%E3%83%94%E3%83%83%E3%83%89%E3%83%BB%E3%83%A9%E3%83%96",
+    "imageKind": "illustration",
+    "imageAlt": "暖かな灯りのバーで語り合う二人とカクテルを描いた挿絵。"
   },
   {
     "date": "2014-11-22",
@@ -356,8 +380,10 @@
     "title": "はじまりのうた",
     "tag": "Movie",
     "memory": "ビターな恋愛と、素晴らしい音楽。見終わったあと、ちゃんと前を向けるタイプの映画で、「I wanna go home」ってフレーズが残るエンディング曲はいまでも時々聴いてしまう。恋が終わっても、人生は始め直せるんだっていう感触が残る。",
-    "image": "images/begin-again.svg",
-    "link": "https://ja.wikipedia.org/wiki/%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8A%E3%81%AE%E3%81%86%E3%81%9F_(%E6%98%A0%E7%94%BB)"
+    "image": "images/memories/begin-again.webp",
+    "link": "https://ja.wikipedia.org/wiki/%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8A%E3%81%AE%E3%81%86%E3%81%9F_(%E6%98%A0%E7%94%BB)",
+    "imageKind": "illustration",
+    "imageAlt": "ニューヨークの屋上で、ギターの演奏を録音する二人を描いた挿絵。"
   },
   {
     "date": "2016-06-24",
@@ -395,7 +421,9 @@
     "tag": "Podcast",
     "memory": "社会人になって学ぶのが楽しいとなるとは思わなかった。歴史がコンテンツになるとは驚いた。聞いたことのない人や思想でちょっと世界が広がった。",
     "link": "https://coten.co.jp/services/cotenradio/",
-    "image": "images/coten-radio.svg"
+    "image": "images/memories/coten-radio.webp",
+    "imageKind": "illustration",
+    "imageAlt": "ヘッドホンと開いた歴史の本から、時代の風景が広がる挿絵。"
   },
   {
     "date": "2023-07-28",

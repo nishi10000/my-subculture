@@ -37,6 +37,7 @@ const buildEntry = (entry) => {
     link.textContent = '作品について読む ↗'; copy.append(link);
   }
   const media = node.querySelector('.media');
+  if (entry.imageKind === 'illustration') media.classList.add('memory-illustration');
   const fallback = () => {
     media.replaceChildren(); media.classList.add('is-empty');
     media.append(document.createTextNode(entry.date.slice(0, 4)));
@@ -44,7 +45,7 @@ const buildEntry = (entry) => {
   };
   const source = entry.image || getAmazonImageUrl(entry.link);
   if (source) {
-    const img = document.createElement('img'); img.src = source; img.alt = entry.title;
+    const img = document.createElement('img'); img.src = source; img.alt = entry.imageAlt || entry.title;
     img.loading = 'lazy'; img.decoding = 'async'; img.addEventListener('error', fallback, { once: true }); media.append(img);
   } else fallback();
   return node;

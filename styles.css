@@ -569,3 +569,17 @@ button {
   flex-shrink: 0;
   white-space: nowrap;
 }
+
+/* Full-bleed landscape artwork; covers retain their original proportions. */
+.media.memory-illustration {
+  padding: 0;
+  overflow: hidden;
+}
+.media.memory-illustration::after {
+  display: none;
+}
+.media.memory-illustration img {
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
