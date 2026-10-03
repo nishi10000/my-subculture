@@ -565,3 +565,7 @@ button {
 * {
   transition:none!important}
 }
+.search-box > span {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
